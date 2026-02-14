@@ -1,0 +1,81 @@
+# ===== 환경변수 파일 (민감한 정보 포함) =====
+.env
+*.env
+
+# ===== Python 관련 =====
+# 바이트코드 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 배포 관련
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# ===== 가상환경 =====
+venv/
+env/
+ENV/
+.venv/
+
+# ===== IDE 설정 파일 =====
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ===== OS 관련 =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ===== 로그 파일 =====
+*.log
+logs/
+
+# ===== 테스트 관련 =====
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints
+
+# ===== 기타 =====
+# 임시 파일
+*.tmp
+*.bak
+*.swp
