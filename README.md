@@ -61,9 +61,8 @@ pytz - 시간대(타임존) 처리
 ### 3️⃣ 환경변수 설정
 
 **Step 1**: `.env` 파일 생성
-```bash
-cp .env.example .env
-```
+1. .env.example 파일 명 수정 또는 복사 후 .env 파일 명 변경
+2. DISCORD_WEBHOOK_URL= 뒤에 복사한 웹훅 URL 붙여넣기
 
 **Step 2**: 디스코드 웹훅 URL 생성
 1. 알림을 받을 디스코드 채널 선택
