@@ -40,7 +40,7 @@
 ### 1️⃣ 레포지토리 클론
 
 ```bash
-git clone [여러분의-깃랩-레포-URL]
+git clone [깃랩-레포-URL]
 cd discord-break-reminder
 ```
 
@@ -114,7 +114,7 @@ python break_reminder.py
 3. 다음 파일들 업로드:
    - `break_reminder.py`
    - `requirements.txt`
-   - `.env` (웹훅 URL이 들어있는 파일)
+   - `.env`
 
 ### 3단계: 패키지 설치
 1. **Consoles** 탭 → **Bash** 클릭
